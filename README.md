@@ -36,11 +36,26 @@ npm run build
 ## Project Structure
 
 ```
-src/ ├── components/ │   ├── common/          # Reusable UI components │   ├── liveops/         # Live Ops Dashboard components │   ├── curbanalytics/   # Curb Analytics components │   └── performance/     # Performance Insights components ├── hooks/ │   ├── useITFMetrics.ts # Main data hook with seeded random generator │   └── useCurrentTime.ts # Current time hook ├── layouts/ │   └── MainLayout.tsx   # Main app layout with navigation ├── pages/ │   ├── LiveOpsDashboard.tsx │   ├── CurbAnalyticsPage.tsx │   └── PerformanceInsightsPage.tsx ├── types.ts             # TypeScript type definitions ├── App.tsx └── main.tsx
+src/
+├── components/
+│   ├── common/          # Reusable UI components
+│   ├── liveops/         # Live Ops Dashboard components
+│   ├── curbanalytics/   # Curb Analytics components
+│   └── performance/     # Performance Insights components
+├── hooks/
+│   ├── useITFMetrics.ts # Main data hook with seeded random generator
+│   └── useCurrentTime.ts # Current time hook
+├── layouts/
+│   └── MainLayout.tsx   # Main app layout with navigation
+├── pages/
+│   ├── LiveOpsDashboard.tsx
+│   ├── CurbAnalyticsPage.tsx
+│   └── PerformanceInsightsPage.tsx
+├── types.ts             # TypeScript type definitions
+├── App.tsx
+└── main.tsx
 ```
 
 ## Data
 
 The application uses a mock data layer with a seeded pseudo-random generator for deterministic, consistent data across reloads. Data updates every 5 seconds with slight perturbations. Enable "Demo Mode" for increased volatility.
-
-

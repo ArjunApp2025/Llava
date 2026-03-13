@@ -2,7 +2,7 @@
 
 A production-quality React + TypeScript + Tailwind CSS dashboard application for airport curbside operations monitoring and analytics.
 
-## Features
+## Feature + code
 
 - **Live Ops Dashboard**: Real-time operations monitoring with KPIs, zone maps, and alerts
 - **Curb Analytics**: INRIX-style curb use analysis with blockface mapping and parking schedules
